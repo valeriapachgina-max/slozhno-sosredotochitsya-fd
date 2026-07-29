@@ -9,4 +9,29 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+    --background-image: url('../images/cover-image-light.png');
+    --page-color: pink;
+    --accent-color: #ff8dcb;
+    --title-decor-background-color: #FF8DCB;
+    --title-name-color: #FFC2E6;
+    --information-text-color: #353430;
+    --mane-text-color:#353430;
+    --button-color:#353430;
+    --border-color:#353430;
+    --heder-info-color:#353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url('../images/cover-image-light.png');
+    --page-color: pink;
+    --accent-color: #ff8dcb;
+    --title-decor-background-color: #FF8DCB;
+    --title-name-color: #FFC2E6;
+    --information-text-color: #353430;
+    --mane-text-color:#353430;
+    --button-color:#353430;
+    --border-color:#353430;
+    --heder-info-color:#353430;
+  }
 }
