@@ -194,7 +194,7 @@
   grid-row-start: 3;
   grid-row-end: 4;
   justify-self: end;
-  align-self: center;
+  align-self: start;
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   color: var(--heder-info-color);
   margin: 20px;
