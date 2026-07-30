@@ -295,11 +295,7 @@ section > h2 {
 .gallery {
   display: grid;
   gap: 20px;
-  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  box-sizing: border-box;
-  grid-auto-flow: dense;
 }
 
 @media (width <= 375px) {
@@ -310,45 +306,27 @@ section > h2 {
   }
 }
 
-.img_book {
+.img_picktures {
   width: 100%;
   height: 100%;
-  grid-column: 2/3;
-  grid-row: 2/3;
   object-fit: cover;
 }
 
-.img_cream {
-  width: 100%;
-  height: 100%;
-  grid-column: 3/4;
-  grid-row: 1/3;
-  object-fit: cover;
+.img_picktures:first-of-type {
+  grid-column: span 2;
 }
 
-.img_street {
-  width: 100%;
-  height: 100%;
-  grid-row: 3/4;
-  grid-column: 2/4;
-  object-fit: cover;
+.img_picktures:nth-of-type(2) {
+  grid-row: span 2;
 }
 
-.img_sunset {
-  width: 100%;
-  height: 100%;
-  grid-column: 1/3;
-  grid-row: 1/2;
-  object-fit: cover;
+.img_picktures:nth-of-type(3) {
+  grid-row: span 2;
 }
 
-.img_tape {
-  width: 100%;
-  height: 100%;
-  grid-column: 1/2;
-  grid-row: 2/4;
-  object-fit: cover;
-}
+.img_picktures:last-of-type {
+  grid-column: span 2;
+} 
 
 .footer {
   position: relative;
