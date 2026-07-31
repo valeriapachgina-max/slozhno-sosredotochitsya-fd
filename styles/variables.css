@@ -5,7 +5,7 @@
 
 :root {
   --background-image: url('../images/cover-image-light.png');
-  --font: 'IBM Plex mono';
+  --font: 'IBM Plex mono', Arial, sans-serif;
   --title-decor-background-color: #FF8DCB;
   --page-color: pink;
   --accent-color: #ff8dcb;
@@ -15,5 +15,8 @@
   --button-color:#353430;
   --border-color:#353430;
   --heder-info-color:#353430;
-
+  --page-background-color: #FFF1F7;
+  --border-for-hover: rgba(50, 49, 45, 0.4);
+  --border-for-active: #353430;
+  --border-for-link: #353430;
 }
