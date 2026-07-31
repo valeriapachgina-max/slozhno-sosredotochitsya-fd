@@ -23,6 +23,8 @@
     --border-for-hover: rgba(50, 49, 45, 0.4);
     --border-for-active: #353430;
     --border-for-link: #353430;
+    --list-point-color: #353430;
+    --question-name-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,9 +42,14 @@
     --page-background-color: #FFF1F7;
     --border-for-active: #353430;
     --border-for-link: #353430;
+    --list-point-color: #353430;
+    --question-name-color: #353430;
   }
 }
 
+.theme-light .rec {
+  display: none;
+}
 
 @media (prefers-color-scheme: light) {
   .theme-auto .rec {

@@ -23,6 +23,8 @@
     --border-for-hover: rgba(255, 0, 112, 0.4);
     --border-for-active: #FF0070;
     --border-for-link: #F1B2CE;
+    --list-point-color: #000028;
+    --question-name-color: #FF0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,5 +43,7 @@
     --border-for-hover: rgba(255, 0, 112, 0.4);
     --border-for-active: #FF0070;
     --border-for-link: #F1B2CE;
+    --list-point-color: #000028;
+    --question-name-color: #FF0070;
   }
 }
